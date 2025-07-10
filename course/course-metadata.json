@@ -1,0 +1,34 @@
+{
+  "id": "68704dac3731eb1c01c9a79d",
+  "title": "Java Snippets",
+  "description": "A comprehensive course on practical Java coding through snippets.",
+  "learningObjectives": [
+    "Understand Java's Syntax",
+    "Familiarize oneself with Java API",
+    "Development of simple and complex Java applications",
+    "Understand and apply efficient algorithm techniques using Java"
+  ],
+  "finalProjectDetails": {
+    "overview": "Implement a console input/output based Java application implementing the lessons learned throughout the course.",
+    "planningResources": [
+      "Java API Documentation",
+      "Algorithm Design Manual"
+    ],
+    "submissionInstructions": "Create a .zip file of your Java application project and submit through the submission portal.",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "_id": "6800a73454438765dcfd5e07",
+    "name": "Tammam Alwafai",
+    "image": "https://avatars.githubusercontent.com/u/47179662?v=4",
+    "githubUsername": "1992tw"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "remoteGithubUrl": null,
+  "createdAt": "2025-07-10T23:33:00.638Z",
+  "updatedAt": "2025-07-10T23:33:00.638Z"
+}
