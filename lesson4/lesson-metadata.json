@@ -2,16 +2,194 @@
   "id": "68704dac3731eb1c01c9a7a5",
   "lessonNumber": 4,
   "title": "Data Structures and Algorithms with Java",
-  "status": "pending",
+  "status": "complete",
   "assignment": {
-    "title": "Assignment will be generated",
-    "objective": "Objective will be provided when lesson is generated",
-    "expectedCapabilities": [],
-    "instructions": [],
-    "tasks": [],
-    "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+    "title": "Implement Basic Data Structures",
+    "objective": "Implement basic data structures such as arrays and linked lists in Java.",
+    "expectedCapabilities": [
+      "Understanding the structure of arrays",
+      "Implementing and using linked lists",
+      "Familiarization with data storage techniques"
+    ],
+    "submissionInstructions": "Submit your Java files demonstrating the array and linked list implementations.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Array Initialization and Display",
+        "description": "Write a Java program that declares an array and displays its content.",
+        "codeExample": "int[] numbers = {10, 20, 30, 40, 50};\nSystem.out.println(Arrays.toString(numbers));",
+        "_id": "687053ae3731eb1c01c9a7e3"
+      },
+      {
+        "taskNumber": 2,
+        "title": "Build and Traverse a Linked List",
+        "description": "Create a linked list and traverse it to display all node values.",
+        "codeExample": "Node head = new Node(100);\nhead.next = new Node(200);\nNode n = head;\nwhile(n != null) {\n  System.out.println(n.data);\n  n = n.next;\n}",
+        "_id": "687053ae3731eb1c01c9a7e4"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Array Implementation",
+            "description": "Create a Java program that initializes an array of integers and prints all elements.",
+            "codeExample": "int[] arr = {1, 2, 3, 4, 5};\nfor(int i = 0; i < arr.length; i++) {\n  System.out.println(arr[i]);\n}",
+            "_id": "687053ae3731eb1c01c9a7e0"
+          }
+        ],
+        "_id": "687053ae3731eb1c01c9a7df"
+      },
+      {
+        "partNumber": 2,
+        "steps": [
+          {
+            "taskNumber": 2,
+            "title": "Implement a Linked List",
+            "description": "Create a basic linked list implementation in Java with the ability to add and print nodes.",
+            "codeExample": "class Node {\n  int data;\n  Node next;\n  Node(int d) { data = d; next = null; }\n}\nNode head = new Node(1);\nhead.next = new Node(2);",
+            "_id": "687053ae3731eb1c01c9a7e2"
+          }
+        ],
+        "_id": "687053ae3731eb1c01c9a7e1"
+      }
+    ],
+    "checklist": [
+      "Array is initialized",
+      "Linked list created",
+      "Both data structures are displayed correctly",
+      "Code is well-commented"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "What is the advantage of using a linked list over an array?",
+        "options": [
+          "Fixed-size allocation",
+          "Dynamic memory allocation",
+          "Faster access"
+        ],
+        "answer": "Dynamic memory allocation",
+        "_id": "687053ae3731eb1c01c9a7dd"
+      },
+      {
+        "question": "How does a linked list differ from an array in terms of structure?",
+        "options": [
+          "Elements are contiguous in memory",
+          "Elements are connected via pointers",
+          "Have fixed size"
+        ],
+        "answer": "Elements are connected via pointers",
+        "_id": "687053ae3731eb1c01c9a7de"
+      }
+    ]
   },
-  "subsections": [],
-  "supplementalVideos": [],
-  "podcastUrl": null
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Introduction to Data Structures",
+      "content": "Data structures are ways of organizing and storing data so that they can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, trees, and graphs.",
+      "videoUrl": "http://video.com/introToDataStructures",
+      "codeExamples": [
+        "int[] numbers = {1, 2, 3, 4, 5};",
+        "ArrayList<String> list = new ArrayList<>(); list.add('Hello');"
+      ],
+      "externalLinks": [
+        "https://www.geeksforgeeks.org/data-structures"
+      ],
+      "quizzes": [
+        {
+          "question": "Which of the following is a linear data structure?",
+          "options": [
+            "Tree",
+            "Queue",
+            "Graph"
+          ],
+          "answer": "Queue",
+          "_id": "687053ae3731eb1c01c9a7d6"
+        }
+      ],
+      "_id": "687053ae3731eb1c01c9a7d5"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Introduction to Algorithms",
+      "content": "Algorithms are a set of instructions designed to perform a specific task. They are crucial for solving problems by defining the steps to reach a solution.",
+      "videoUrl": "http://video.com/introToAlgorithms",
+      "codeExamples": [
+        "// An example of a sorting algorithm - Bubble Sort\nfor(int i = 0; i < n-1; i++)\n  for(int j = 0; j < n-i-1; j++)\n    if(arr[j] > arr[j+1])\n      swap(arr[j], arr[j+1]);"
+      ],
+      "externalLinks": [
+        "https://www.coursera.org/specializations/algorithms"
+      ],
+      "quizzes": [
+        {
+          "question": "What does an algorithm consist of?",
+          "options": [
+            "Data",
+            "Instructions",
+            "Both"
+          ],
+          "answer": "Instructions",
+          "_id": "687053ae3731eb1c01c9a7d8"
+        }
+      ],
+      "_id": "687053ae3731eb1c01c9a7d7"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Arrays in Java",
+      "content": "Arrays are a fundamental data structure in Java. They are used to store multiple values of the same type in a single variable.",
+      "videoUrl": "http://video.com/arraysInJava",
+      "codeExamples": [
+        "int[] numbers = new int[5];\nfor(int i = 0; i < numbers.length; i++) {\n  numbers[i] = i;\n}"
+      ],
+      "externalLinks": [],
+      "quizzes": [
+        {
+          "question": "What type of data structure is an array in Java?",
+          "options": [
+            "Linear",
+            "Non-linear",
+            "Hierarchical"
+          ],
+          "answer": "Linear",
+          "_id": "687053ae3731eb1c01c9a7da"
+        }
+      ],
+      "_id": "687053ae3731eb1c01c9a7d9"
+    },
+    {
+      "subsectionOrder": 4,
+      "title": "Linked Lists in Java",
+      "content": "Linked Lists are a linear data structure where elements are stored in nodes, and each node points to the next node in the sequence.",
+      "videoUrl": "http://video.com/linkedListsInJava",
+      "codeExamples": [
+        "class Node {\n  int data;\n  Node next;\n  Node(int d) { data = d; }\n}"
+      ],
+      "externalLinks": [
+        "https://www.javatpoint.com/java-linked-list"
+      ],
+      "quizzes": [
+        {
+          "question": "What is a characteristic of a linked list?",
+          "options": [
+            "Fixed size",
+            "Dynamic size",
+            "No pointers"
+          ],
+          "answer": "Dynamic size",
+          "_id": "687053ae3731eb1c01c9a7dc"
+        }
+      ],
+      "_id": "687053ae3731eb1c01c9a7db"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/dataStructuresOverview"
+  ],
+  "references": [
+    "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html"
+  ]
 }
