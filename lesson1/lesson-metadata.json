@@ -1,7 +1,7 @@
 {
-  "id": "68704dac3731eb1c01c9a7a4",
-  "lessonNumber": 3,
-  "title": "Java API and Libraries",
+  "id": "68704dac3731eb1c01c9a7a2",
+  "lessonNumber": 1,
+  "title": "Introduction to Java",
   "status": "pending",
   "assignment": {
     "title": "Assignment will be generated",
@@ -12,6 +12,5 @@
     "submissionInstructions": "Submission instructions will be provided when lesson is generated"
   },
   "subsections": [],
-  "supplementalVideos": [],
-  "podcastUrl": null
+  "supplementalVideos": []
 }
